@@ -114,7 +114,7 @@
     <div class="clearfix"></div>
 </nav>
 <section id="comment">
-  <!--高速版，加载速度快，使用前需测试页面的兼容性-->
+  <!--兼容版，可保证页面完全兼容-->
   <div id="SOHUCS"></div>
   <script>
     (function(){
@@ -127,7 +127,6 @@
       s.charset = 'utf-8';
       s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
       h.insertBefore(s,h.firstChild);
-      window.SCS_NO_IFRAME = true;
     })()
   </script>
 </section>
